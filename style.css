@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: grey;
+    font-family: sans-serif;
+}
+
+#main-container,
+#footer-container {
+    width: 800px;
+    margin: auto;
+    padding: 15px;
+}
+
+#main-container {
+    background-color: white;
+    border-bottom: 2px solid orange;
+}
+
+#header-container, 
+#profil-container{
+    padding-bottom: 15px;
+    border-bottom: 2px solid orange;
+    margin-bottom: 15px;
+}
+
+#header-container img {
+    width: 150px;
+    float: left;
+}
+
+#header-container h1 {
+    float: left;
+    font-size: 62px;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 600px;
+    border-bottom: 5px solid grey ;
+    color: red;
+}
+
+#profil-container h1,
+#activities-container h1 {
+    margin-bottom: 20px
+}
+
+#profil-container h1,
+#activities-container h1 {
+    text-align: center;
+    font-size: 32px;
+    background-color: grey;
+    color: white;
+    padding: 10px;
+}
+
+#info-container {
+    width: 700px;
+    margin: auto;
+}
+
+#info-container img {
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+}
+
+#info-container #desc-container {
+    width: 450px;
+    float: left;
+}
+
+#info-container #desc-container p {
+    text-align: justify;
+}
+
+.item-activity-container {
+    padding: 10px;
+}
+
+.item-activity-container img,
+.item-activity-container p {
+    width: 700px;
+    display: block;
+    margin: auto;
+}
+
+.item-activity-container p {
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+#footer-container {
+    background-color: black;
+}
+
+#footer-container h2 {
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    background-color: green;
+    width: 200px;
+    margin: auto;
+    padding: 10px 0;
+}
+
+.clear-fix {
+    clear: both;
+}
